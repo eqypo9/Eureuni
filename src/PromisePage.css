@@ -1,0 +1,15 @@
+.promisepage {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .promisepage__nav {
+    position: relative;
+    flex: 0.2;
+  }
+  
+  .promisepage__fri {
+    flex: 0.8;
+  }
+  
+  
