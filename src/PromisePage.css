@@ -1,15 +1,49 @@
 .promisepage {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .promisepage__nav {
-    position: relative;
-    flex: 0.2;
-  }
-  
-  .promisepage__fri {
-    flex: 0.8;
-  }
-  
-  
+  display: flex;
+  flex-direction: row;
+}
+
+.promisepage__nav {
+  position: relative;
+  flex: 0.2;
+}
+
+.promisepage__fri {
+  flex: 0.8;
+}
+
+
+.promisepage__image-container {
+  position: fixed;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  left: 350px;
+  margin: auto;
+  z-index: -1; 
+  overflow: hidden;
+}
+
+.promisepage__image {
+  width: 1000px;
+  height: 60px;
+}
+
+.promisepage__circles {
+  position: absolute;
+  left: 1200px;
+  top: 150px;
+}
+
+.promisepage__circle {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.promisepage__text {
+  position: relative;
+  margin-top: 150px;
+}
