@@ -29,7 +29,7 @@ function Sidebar() {
           </button>
 
           <button className="sidenav__button">
-            <CalendarMonthIcon />
+            <ChecklistIcon />
             <span>Diary</span>
           </button>
 

@@ -1,10 +1,9 @@
 import "./App.css";
-import HomePage from "./HomePage";
-
+import MyGoal from "./components/myGoals";
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      <MyGoal />
     </div>
   );
 }

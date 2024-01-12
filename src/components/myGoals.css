@@ -1,0 +1,29 @@
+.img {
+  width: 250px;
+  height: 180px;
+  border-bottom: solid black 1px;
+}
+
+.GoalName {
+  width: 250px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.GoalContainer {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+  border: solid black 1px;
+  border-radius: 10px;
+  margin-left: 300px;
+  position: relative;
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-content: space-between;
+}
