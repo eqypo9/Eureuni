@@ -1,46 +1,52 @@
 .sidenav {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 1;
-  }
-  
-  .sidenav__logo {
-    width: 120px;
-    margin: 25px;
-  }
-  
-  .sidenav__buttons {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .sidenav__button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: white;
-    background: 0;
-    border: 0;
-    margin: 5px 10px 5px 10px;
-    padding: 10px 15px 10px 115px;
-    border-radius: 15px;
-    width: 100%;
-  }
-  
-  .sidenav__button:hover {
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.128);
-  }
-  
-  .sidenav__button > span {
-    font-size: 18px;
-    margin-left: 10px;
-  }
-  
-  .sidenav__more {
-    position: fixed;
-    bottom: 3px;
-  }
-  
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.sidenav__buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.sidenav__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  background: 0;
+  border: 0;
+  margin: 5px 10px 5px 10px;
+  padding: 10px 100px 10px 100px;
+  border-radius: 15px;
+  width: 100%;
+  font-family: "Ainmom";
+}
+
+.sidenav__middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  background: 0;
+  border: 0;
+  margin-top: 150px;
+}
+.sidenav__button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.128);
+}
+
+.sidenav__button > span {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.sidenav__buttom {
+  position: fixed;
+  bottom: 3px;
+  margin-bottom: 50px;
+}

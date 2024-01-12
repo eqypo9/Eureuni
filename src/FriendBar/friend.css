@@ -1,0 +1,6 @@
+.friendBar {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 100px 30px 400px;
+}
+
