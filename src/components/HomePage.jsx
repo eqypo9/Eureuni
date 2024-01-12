@@ -1,6 +1,7 @@
 import React from "react";
 import UserBar from "../FriendBar/friend";
 import Sidebar from "./Navigation/sidebar";
+import "./HomePage";
 
 function HomePage() {
   return (

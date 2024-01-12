@@ -1,6 +1,6 @@
 import react, { Component } from "react";
-import "./myGoals.css";
 import HomePage from "./HomePage";
+import "./myGoals.css"
 
 // import SampleImg from "./img/pic_sample.png";
 

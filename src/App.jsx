@@ -7,8 +7,7 @@ import Main from "./main";
 import PromisePage from "./components/PromisePage";
 
 function App() {
-  return;
-  <HomePage />;
+  return <HomePage />;
 }
 
 // function App() {
