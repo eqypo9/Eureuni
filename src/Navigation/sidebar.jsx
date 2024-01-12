@@ -1,4 +1,4 @@
-import React from "react";
+import React, { state } from "react";
 import "./sidebar.css";
 import HomeIcon from "@mui/icons-material/Home";
 import SearchIcon from "@mui/icons-material/Search";
@@ -8,13 +8,14 @@ import SettingsIcon from "@mui/icons-material/Settings";
 import NoteAltIcon from "@mui/icons-material/NoteAlt";
 import ChecklistIcon from "@mui/icons-material/Checklist";
 
+
 function Sidebar() {
   return (
     <div className="sidenav">
-      <div className="sidenav__buttons">
-        <button className="sidenav__button">
+      <div className="sidenav__buttons" >
+        <button className="sidenav__button" >
           <HomeIcon />
-          <span>Home</span>
+          <span>홈</span>
         </button>
 
         <button className="sidenav__button">
@@ -24,18 +25,18 @@ function Sidebar() {
 
         <div className="sidenav__middle">
           <button className="sidenav__button">
-            <NoteAltIcon />
-            <span>Goals</span>
+            <ChecklistIcon />
+            <span>다짐</span>
           </button>
 
           <button className="sidenav__button">
-            <ChecklistIcon />
-            <span>Diary</span>
+            <NoteAltIcon />
+            <span>일기</span>
           </button>
 
           <button className="sidenav__button">
             <CalendarMonthIcon />
-            <span>Calander</span>
+            <span>캘린더</span>
           </button>
         </div>
       </div>
@@ -43,11 +44,11 @@ function Sidebar() {
       <div className="sidenav__buttom">
         <button className="sidenav__button">
           <MenuIcon />
-          <span>More</span>
+          <span>더보기</span>
         </button>
         <button className="sidenav__button">
           <SettingsIcon />
-          <span>Settings</span>
+          <span>설정</span>
         </button>
       </div>
     </div>
